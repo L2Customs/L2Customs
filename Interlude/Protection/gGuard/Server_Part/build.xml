@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="gGuard">
+    <property environment="env"/>
+    <property name="gGuard.location" value="../gGuard"/>
+	<property name="lib" location="libs"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+     <property name="build.sysclasspath" value="last"/>
+    
+	
+	
+	<path id="gGuard.classpath">
+	        <fileset dir="${lib}">
+	            <include name="javolution.jar"/>
+	            <include name="commons-logging-1.1.jar"/>
+	        	<include name="L2jFulLTeaM.jar"/>
+	        	        	
+	        </fileset>
+	    </path>   
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src" excludes="**/*.launch, **/*.java"/>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="build" name="generate" >	
+       <delete dir="dist" />
+       <mkdir dir="dist" />
+       <echo message="Enter client key (6 hexdecimal digit)" />		
+       <java classname="MakeClient" fork="true"
+             classpath="./bin" />
+    </target>
+    
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-project" name="build"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}" encoding="utf-8">
+            <src path="src"/>
+            <classpath refid="gGuard.classpath"/>
+        </javac>
+    </target>
+</project>

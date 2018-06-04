@@ -1,0 +1,37 @@
+Now let's begin, how to customize the system
+
+The problem is this: give the client part of client-server tuned just for him
+
+1. Start ant_build.bat
+2. Introduce any 6 hexadecimal characters for example FFCCAA.
+
+    Thus, we have encrypted our package and with the help of the current key can be
+    will run the compiled package.
+
+3. Of the dist folder to get files gGuard.jar
+4. it should be placed in a folder obudet Lib.
+5. In the file write setgame.bat
+
+    SET CLASSPATH =% CLASSPATH%;. / Lib / gGuard.jar
+
+6. Config folder of the folder put all the Config Server
+7. Now we translate our 16-hex type in Word and our FFCCAA
+
+    is equal to 52 479
+
+8. This number is write to a file in the folder config key.cfg
+9. We go into our database and write in our database the name of our client, well, for example vados, go to the file and there GuardSystem.ini Thode write the name of the parameter ClientName., Well, we write our code Ie FFCCAA, in fields where I think that paisat will understand, If you want to build privyaschat us then to the table in the parameter PI PI indicate our client (urge to prescribe PIs, is the protection of Share). The server part is ready.
+10.Teper client part
+11. Run the prog ConfigVis and write there the name of our client, in this case vados. HTTP field clears, we do not need it.
+12. As part of the client must log files such
+
+    and. gg_sys.ini
+    b. gGuard.dll
+    at. l2.exe
+    Mr. GameGuard folder in it is gGuard.des
+
+13. In the server part must be logged in these files
+
+    gGuard.jar
+    key.cfg with inscribing the code
+    Configuration file Config \ Server \ Protected \ GuardSystem.ini

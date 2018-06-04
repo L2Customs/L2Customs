@@ -1,0 +1,26 @@
+1	tfrmmain	hlapex
+1	afx:00400000:0	l2walker
+1	tpanel		l2control
+1	wxwindowclassnr	l2
+1	vxwindowclassnr	l2
+1	thunderrt6fromdc	focus
+2	l2packet
+2	wp packet
+1	tfrmmain	l2radar
+2	hlapex
+2	wp v5
+3	wp5
+3	wp506f.exe
+1	tform1	acp
+2	acp 
+3	acp.exe
+1	tfmmain	uop
+3	uopil
+1	tfrmmain	ac t
+3	actool
+3	ingame
+1	tfrmmain	in
+1	Лог пакетхака
+2 	TfProcessRawLog
+2 	TfScriptEditor
+
