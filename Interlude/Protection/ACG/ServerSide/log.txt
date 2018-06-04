@@ -1,0 +1,112 @@
+
+Date Fri Mar 12 20:15:38 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Mar 12 20:17:58 2010
+ > > Banned by MAC for cheating address :10.41.41.31
+> MAC : 00 15 e9 41 fd 06 
+Date Fri Mar 12 20:29:06 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Mar 19 13:22:47 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Mar 19 13:28:14 2010
+ > > Connected client with address :10.41.41.31
+Date Wed Mar 31 16:22:01 2010
+ > > Connected client with address :10.41.41.31
+Date Wed Mar 31 16:26:19 2010
+ > > Connected client with address :10.41.41.31
+Date Wed Mar 31 16:30:16 2010
+ > > Connected client with address :10.41.41.31
+Date Wed Mar 31 16:37:00 2010
+ > > Connected client with address :10.41.41.31
+Date Wed Mar 31 16:39:22 2010
+ > > Connected client with address :10.41.41.31
+Date Sat Apr 10 12:53:05 2010
+ > > Connected client with address :10.41.41.31
+Date Sat Apr 10 12:54:40 2010
+ > > Connected client with address :10.41.41.31
+Date Sat Apr 10 22:00:52 2010
+ > > Connected client with address :10.41.41.31
+Date Tue Apr 13 17:48:52 2010
+ > > Connected client with address :10.41.41.31
+Date Tue Apr 13 17:50:00 2010
+ > > Connected client with address :10.41.41.31
+Date Tue Apr 13 18:02:31 2010
+ > > Connected client with address :10.41.41.31
+Date Tue Apr 13 18:05:55 2010
+ > > Connected client with address :10.41.41.31
+Date Tue Apr 13 18:17:25 2010
+ > > Connected client with address :10.41.41.31
+Date Tue Apr 13 18:18:09 2010
+ > > Connected client with address :10.41.41.31
+Date Tue Apr 13 18:21:44 2010
+ > > Connected client with address :10.41.41.31
+Date Tue Apr 13 18:23:05 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 20:06:09 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 20:18:51 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 22:34:59 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 22:41:23 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 22:47:20 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 22:53:00 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 23:02:09 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 23:04:43 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 23:13:55 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 23:15:19 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 23:22:24 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 23:23:43 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 23:30:59 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 23:31:47 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 23:33:21 2010
+ > > Connected client with address :10.41.41.31
+Date Fri Apr 16 23:34:07 2010
+ > > Connected client with address :10.41.41.31
+Date Tue Sep 08 13:04:26 2015
+ > > Connected client with address :127.0.0.1
+Date Tue Sep 08 13:08:02 2015
+ > > Connected client with address :127.0.0.1
+Date Tue Sep 08 13:09:05 2015
+ > > Connected client with address :127.0.0.1
+Date Tue Sep 08 13:11:07 2015
+ > > Connected client with address :127.0.0.1
+Date Tue Sep 08 13:12:06 2015
+ > > Connected client with address :127.0.0.1
+Date Tue Sep 08 13:13:34 2015
+ > > Connected client with address :127.0.0.1
+Date Tue Sep 08 13:13:55 2015
+ > > Connected client with address :127.0.0.1
+Date Tue Sep 08 13:16:03 2015
+ > > Connected client with address :127.0.0.1
+Date Tue Sep 08 13:18:43 2015
+ > > Connected client with address :127.0.0.1
+Date Tue Sep 08 13:40:07 2015
+ > > Connected client with address :127.0.0.1
+Date Wed Dec 07 16:53:41 2016
+ > > Connected client with address :127.0.0.1
+Date Wed Dec 07 16:54:03 2016
+ > > Connected client with address :127.0.0.1
+Date Wed Dec 07 16:54:36 2016
+ > > Connected client with address :127.0.0.1
+Date Wed Dec 07 16:54:50 2016
+ > > Connected client with address :127.0.0.1
+Date Wed Dec 07 16:55:21 2016
+ > > Connected client with address :127.0.0.1
+Date Wed Dec 07 16:55:33 2016
+ > > Connected client with address :127.0.0.1
+Date Wed Dec 07 16:55:58 2016
+ > > Connected client with address :127.0.0.1
+Date Wed Dec 07 16:56:13 2016
+ > > Connected client with address :127.0.0.1
