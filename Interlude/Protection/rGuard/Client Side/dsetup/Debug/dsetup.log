@@ -1,0 +1,3 @@
+﻿Blowfish.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ..\out\dsetup.lib and object ..\out\dsetup.exp
+  dsetup.vcxproj -> I:\Dropbox\Protection\Pick\dsetup\denart\dsetup\..\out\dsetup.dll

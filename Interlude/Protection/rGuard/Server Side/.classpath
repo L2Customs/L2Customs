@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="java"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="lib" path="lib/l2jserver.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mmocore.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/L2J_DataPack"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/L2J_Server"/>
+	<classpathentry exported="true" kind="lib" path="lib/javolution.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

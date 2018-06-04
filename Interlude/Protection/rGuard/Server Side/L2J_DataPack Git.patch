@@ -1,0 +1,84 @@
+diff --git a/L2J_DataPack/.gitignore b/L2J_DataPack/.gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ b/L2J_DataPack/.gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git a/L2J_DataPack/sql/hwid_bans.sql b/L2J_DataPack/sql/hwid_bans.sql
+new file mode 100644
+index 0000000..e30e087
+--- /dev/null
++++ b/L2J_DataPack/sql/hwid_bans.sql
+@@ -0,0 +1,13 @@
++SET FOREIGN_KEY_CHECKS=0;
++-- ---------------------------
++-- Table structure for `hwid_bans`
++-- ---------------------------
++CREATE TABLE IF NOT EXISTS `hwid_bans` (
++  `bans` int(255) NOT NULL AUTO_INCREMENT,
++  `HWID` varchar(32) DEFAULT NULL,
++  `HWIDSecond` varchar(32) DEFAULT NULL,
++  `expiretime` int(11) NOT NULL DEFAULT '0',
++  `comments` varchar(255) DEFAULT '',
++  PRIMARY KEY (`bans`),
++  UNIQUE KEY `HWID` (`HWID`)
++) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPRESSED COMMENT='hwid bans Table';
+diff --git a/L2J_DataPack/sql/hwid_info.sql b/L2J_DataPack/sql/hwid_info.sql
+new file mode 100644
+index 0000000..014db45
+--- /dev/null
++++ b/L2J_DataPack/sql/hwid_info.sql
+@@ -0,0 +1,13 @@
++SET FOREIGN_KEY_CHECKS=0;
++-- ---------------------------
++-- Table structure for `hwid_info`
++-- ---------------------------
++CREATE TABLE IF NOT EXISTS `hwid_info` (
++  `HWID` varchar(32) NOT NULL DEFAULT '',
++  `HWIDSecond` varchar(32) NOT NULL DEFAULT '',
++  `WindowsCount` int(10) unsigned NOT NULL DEFAULT '1',
++  `Account` varchar(45) NOT NULL DEFAULT '',
++  `PlayerID` int(10) unsigned NOT NULL DEFAULT '0',
++  `LockType` enum('PLAYER_LOCK','ACCOUNT_LOCK','NONE') NOT NULL DEFAULT 'NONE',
++  PRIMARY KEY (`HWID`)
++) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPRESSED COMMENT='hwid info Table';
+diff --git a/L2J_DataPack/tools/database_installer.bat b/L2J_DataPack/tools/database_installer.bat
+index 6f88f8f..c77a8e8 100644
+--- a/L2J_DataPack/tools/database_installer.bat
++++ b/L2J_DataPack/tools/database_installer.bat
+@@ -772,6 +772,8 @@
+ henna_trees.sql
+ heroes.sql
+ heroes_diary.sql
++hwid_bans.sql
++hwid_info.sql
+ item_attributes.sql
+ items.sql
+ itemsonground.sql
+diff --git a/L2J_DataPack/tools/database_installer.sh b/L2J_DataPack/tools/database_installer.sh
+index 69991de..3867d50 100644
+--- a/L2J_DataPack/tools/database_installer.sh
++++ b/L2J_DataPack/tools/database_installer.sh
+@@ -417,6 +417,8 @@
+ $MYG < ../sql/henna_trees.sql &> /dev/null
+ $MYG < ../sql/heroes.sql &> /dev/null
+ $MYG < ../sql/heroes_diary.sql &> /dev/null
++$MYG < ../sql/hwid_bans.sql &> /dev/null
++$MYG < ../sql/hwid_info.sql &> /dev/null
+ $MYG < ../sql/item_attributes.sql &> /dev/null
+ $MYG < ../sql/items.sql &> /dev/null
+ $MYG < ../sql/itemsonground.sql &> /dev/null
+diff --git a/L2J_DataPack/tools/full_install.sql b/L2J_DataPack/tools/full_install.sql
+index 3fd30cd..54f1ef7 100644
+--- a/L2J_DataPack/tools/full_install.sql
++++ b/L2J_DataPack/tools/full_install.sql
+@@ -79,6 +79,8 @@
+ DROP TABLE IF EXISTS henna_trees;
+ DROP TABLE IF EXISTS heroes;
+ DROP TABLE IF EXISTS heroes_diary;
++DROP TABLE IF EXISTS hwid_bans;
++DROP TABLE IF EXISTS hwid_info;
+ DROP TABLE IF EXISTS item_attributes;
+ DROP TABLE IF EXISTS items;
+ DROP TABLE IF EXISTS itemsonground;

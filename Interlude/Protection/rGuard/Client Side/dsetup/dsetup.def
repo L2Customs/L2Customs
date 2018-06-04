@@ -1,0 +1,5 @@
+LIBRARY "dsetup"
+
+EXPORTS
+
+DirectXSetupGetVersion @11

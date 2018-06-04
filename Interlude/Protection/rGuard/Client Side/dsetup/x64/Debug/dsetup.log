@@ -1,0 +1,162 @@
+﻿Build started 15/12/2015 10:39:22 μμ.
+     1>Project "G:\GoogleDrive\Client Works\Guard\rGuard1\ClientSide\dsetup\dsetup.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "G:\GoogleDrive\Client Works\Guard\rGuard1\ClientSide\x64\Debug\".
+       InitializeBuildStatus:
+         Creating "x64\Debug\dsetup.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt Blowfish.cpp Hook.cpp main.cpp Obfuscator.cpp Splash.cpp
+         Blowfish.cpp
+         Hook.cpp
+     1>Hook.cpp(3): error C2485: 'naked' : unrecognized extended attribute
+     1>Hook.cpp(5): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(8): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(8): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(8): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(8): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(9): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(9): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(9): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(9): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(10): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(10): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(10): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(10): error C2143: syntax error : missing ';' before 'constant'
+     1>Hook.cpp(10): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>Hook.cpp(10): error C2146: syntax error : missing ';' before identifier '_emit'
+     1>Hook.cpp(10): error C2065: '_emit' : undeclared identifier
+     1>Hook.cpp(10): fatal error C1003: error count exceeds 100; stopping compilation
+         main.cpp
+     1>main.cpp(281): error C2664: 'wsprintfA' : cannot convert parameter 1 from 'wchar_t [64]' to 'LPSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>main.cpp(720): error C2664: 'FindWindowA' : cannot convert parameter 2 from 'const wchar_t [11]' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>main.cpp(723): error C2664: 'SetWindowTextA' : cannot convert parameter 2 from 'const wchar_t [2]' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Obfuscator.cpp
+         Splash.cpp
+         Generating Code...
+     1>Done Building Project "G:\GoogleDrive\Client Works\Guard\rGuard1\ClientSide\dsetup\dsetup.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.34

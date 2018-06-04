@@ -1,0 +1,2 @@
+#define IDI_TRAYICON  101
+#define IDB_SPLASHLOAD 102

@@ -1,0 +1,2 @@
+Windows SDK Version 10.0.16299.0
+Platform Toolset v141

@@ -1,0 +1,195 @@
+### Eclipse Workspace Patch 1.0
+#P L2J_Server
+diff --git .classpath .classpath
+index e391529..9910160 100644
+--- .classpath
++++ .classpath
+@@ -11,5 +11,6 @@
+ 	<classpathentry kind="lib" path="lib/jython-engine.jar"/>
+ 	<classpathentry kind="lib" path="lib/trove-2.1.0.jar"/>
+ 	<classpathentry kind="lib" path="lib/javolution-5.5.1.jar"/>
++	<classpathentry kind="lib" path="lib/DAGuard.jar"/>
+ 	<classpathentry kind="output" path="bin"/>
+ </classpath>
+diff --git .gitignore .gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ .gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git build.xml build.xml
+index d937281..f364814 100644
+--- build.xml
++++ build.xml
+@@ -42,12 +42,13 @@
+ 			<include name="mmocore.jar" />
+ 			<include name="trove-2.1.0.jar" />
+ 			<include name="netcon.jar" />
++			<include name="DAGuard.jar" />
+ 		</fileset>
+ 	</path>
+ 
+ 	<target name="verifyRequirements" description="Checks if the necessary requirements for building L2J are fulfilled">
+-		<available classname="javax.script.ScriptContext" property="JDK6.present" />
+-		<fail unless="JDK6.present" message="JDK 6 or greater is required." />
++		<available classname="javax.script.ScriptContext" property="JDK8.present" />
++		<fail unless="JDK8.present" message="JDK 8 or greater is required." />
+ 	</target>
+ 
+ 	<target name="init" depends="clean, verifyRequirements" description="Create the output directories.">
+@@ -59,7 +60,7 @@
+ 	</target>
+ 
+ 	<target name="compile" depends="version" description="Compile the source.">
+-		<javac destdir="${build.classes}" optimize="on" debug="on" source="1.6" target="1.6" nowarn="off">
++		<javac destdir="${build.classes}" optimize="on" debug="on" source="1.8" target="1.8" nowarn="off" includeantruntime="false">
+ 			<src path="${src}" />
+ 			<classpath refid="classpath" />
+ 		</javac>
+@@ -207,7 +208,7 @@
+ 			detailed info:
+ 		</concat>
+ 		<concat destfile="${build.dist.game}/config/l2j-version.properties" append="true">
+-			<filelist dir="${src}/../.svn/" files="entries" />
++			<filelist dir="svn" files="entries" />
+ 			<filterchain>
+ 				<prefixlines prefix="          " />
+ 				<headfilter lines="8" skip="4" />
+diff --git java/com/l2jserver/gameserver/GameServer.java java/com/l2jserver/gameserver/GameServer.java
+index eead34d..544c39b 100644
+--- java/com/l2jserver/gameserver/GameServer.java
++++ java/com/l2jserver/gameserver/GameServer.java
+@@ -487,6 +487,7 @@
+ 		Config.load();
+ 		printSection("Database");
+ 		L2DatabaseFactory.getInstance();
++		DAGuard.Protection.Init();
+ 		gameServer = new GameServer();
+ 		
+ 		if (Config.IS_TELNET_ENABLED)
+diff --git java/com/l2jserver/gameserver/GameTimeController.java java/com/l2jserver/gameserver/GameTimeController.java
+index 205a58f..81661eb 100644
+--- java/com/l2jserver/gameserver/GameTimeController.java
++++ java/com/l2jserver/gameserver/GameTimeController.java
+@@ -81,6 +81,16 @@
+ 		return _gameTicks;
+ 	}
+ 	
++	public final int getGameHour()
++	{
++		return getGameTime() / 60;
++	}
++	
++	public final int getGameMinute()
++	{
++		return getGameTime() % 60;
++	}
++	
+ 	/**
+ 	 * Add a L2Character to movingObjects of GameTimeController.<BR><BR>
+ 	 *
+diff --git java/com/l2jserver/gameserver/model/actor/instance/L2PcInstance.java java/com/l2jserver/gameserver/model/actor/instance/L2PcInstance.java
+index 9afbb61..2acf6f3 100644
+--- java/com/l2jserver/gameserver/model/actor/instance/L2PcInstance.java
++++ java/com/l2jserver/gameserver/model/actor/instance/L2PcInstance.java
+@@ -14892,4 +14892,21 @@
+ 			addSkill(SkillTable.getInstance().getInfo(id, nextLevel), true);
+ 		}
+ 	}
++	
++	private L2GameClient _connection;
++	
++	public L2GameClient getNetConnection()
++	{
++		return _connection;
++	}
++	
++	public String getIP()
++	{
++		return _connection.getIpAddr();
++	}
++	
++	public String getHWID()
++	{
++		return _connection.getHWID();
++	}
+ }
+diff --git java/com/l2jserver/gameserver/network/L2GameClient.java java/com/l2jserver/gameserver/network/L2GameClient.java
+index 1fe1834..c12075a 100644
+--- java/com/l2jserver/gameserver/network/L2GameClient.java
++++ java/com/l2jserver/gameserver/network/L2GameClient.java
+@@ -812,4 +812,44 @@
+ 		}
+ 		return false;
+ 	}
++	
++	private final String _address = getConnection().getInetAddress().getHostAddress();
++	public void checkHwid(String allowedHwid)
++	{
++		if (!allowedHwid.equalsIgnoreCase("") && !getHWID().equalsIgnoreCase(allowedHwid))
++			closeNow();
++	}
++	
++	private String _hwid;
++	private boolean _isProtected;
++	
++	public String getHWID()
++	{
++		return _hwid;
++	}
++	
++	public boolean isProtected()
++	{
++		return _isProtected;
++	}
++	
++	public void setHWID(String hwid)
++	{
++		_hwid = hwid;
++	}
++	
++	public void setProtected(boolean isProtected)
++	{
++		_isProtected = isProtected;
++	}
++	
++	public boolean isGameGuardOk()
++	{
++		return _isAuthedGG;
++	}
++	
++	public String getIpAddr()
++	{
++		return _address;
++	}
+ }
+diff --git java/com/l2jserver/log/FileLogFormatter.java java/com/l2jserver/log/FileLogFormatter.java
+index f5e2b7b..7f0688d 100644
+--- java/com/l2jserver/log/FileLogFormatter.java
++++ java/com/l2jserver/log/FileLogFormatter.java
+@@ -36,14 +36,14 @@
+ 	 * @see java.util.logging.Formatter#format(java.util.logging.LogRecord)
+ 	 */
+ 	private static final String CRLF = "\r\n";
+-	private static final String _ = "\t";
++	private static final String tab = "\t";
+ 	private SimpleDateFormat dateFmt = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss,SSS");
+ 	
+ 	@Override
+ 	public String format(LogRecord record)
+ 	{
+-		return StringUtil.concat(dateFmt.format(new Date(record.getMillis())), _,
+-				record.getLevel().getName(), _, String.valueOf(record.getThreadID()), _,
+-				record.getLoggerName(), _, record.getMessage(), CRLF);
++		return StringUtil.concat(dateFmt.format(new Date(record.getMillis())), tab,
++				record.getLevel().getName(), tab, String.valueOf(record.getThreadID()), tab,
++				record.getLoggerName(), tab, record.getMessage(), CRLF);
+ 	}
+ }
+diff --git lib/DAGuard.jar lib/DAGuard.jar
+new file mode 100644
+index 0000000..2c7058e
+--- /dev/null
++++ lib/DAGuard.jar
+Binary files differ
