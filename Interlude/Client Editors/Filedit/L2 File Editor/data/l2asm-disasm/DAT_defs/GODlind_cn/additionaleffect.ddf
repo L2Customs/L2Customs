@@ -1,0 +1,15 @@
+//Created by Syncia 2014-05-17 for China Client
+FS="\t";
+RECCNT=-1;
+HEADER=YES;
+MTXCNT_OUT=YES;
+MATCNT_OUT=YES;
+MAGIC=0;
+ORD_IGNORE=NO;
+
+{
+	UINT item_id;
+    ASCF weapon_effect0;
+    ASCF weapon_effect1;
+}
+

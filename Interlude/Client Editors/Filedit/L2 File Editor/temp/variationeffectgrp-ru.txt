@@ -1,0 +1,353 @@
+int1	int2	int3	int4	int5	effect	attribute
+1	1	0	15	0		u,Улучш.\0
+1	1	0	15	1		u,Улучш.\0
+1	1	0	15	2		u,Улучш.\0
+1	1	0	15	3		u,Улучш.\0
+1	1	0	15	4		u,Улучш.\0
+1	1	0	15	5		u,Улучш.\0
+1	1	0	15	6		u,Улучш.\0
+1	1	0	15	7		u,Улучш.\0
+1	1	0	15	8		u,Улучш.\0
+1	1	0	15	9		u,Улучш.\0
+1	1	0	15	10		u,Улучш.\0
+1	1	16	50	0		u,Улучш.\0
+1	1	16	50	1		u,Улучш.\0
+1	1	16	50	2		u,Улучш.\0
+1	1	16	50	3		u,Улучш.\0
+1	1	16	50	4		u,Улучш.\0
+1	1	16	50	5		u,Улучш.\0
+1	1	16	50	6		u,Улучш.\0
+1	1	16	50	7		u,Улучш.\0
+1	1	16	50	8		u,Улучш.\0
+1	1	16	50	9		u,Улучш.\0
+1	1	16	50	10		u,Улучш.\0
+1	2	0	15	0		u,Улучш.\0
+1	2	0	15	1		u,Улучш.\0
+1	2	0	15	2		u,Улучш.\0
+1	2	0	15	3		u,Улучш.\0
+1	2	0	15	4		u,Улучш.\0
+1	2	0	15	5		u,Улучш.\0
+1	2	0	15	6		u,Улучш.\0
+1	2	0	15	7		u,Улучш.\0
+1	2	0	15	8		u,Улучш.\0
+1	2	0	15	9		u,Улучш.\0
+1	2	0	15	10		u,Улучш.\0
+1	2	16	50	0		u,Улучш.\0
+1	2	16	50	1		u,Улучш.\0
+1	2	16	50	2		u,Улучш.\0
+1	2	16	50	3		u,Улучш.\0
+1	2	16	50	4		u,Улучш.\0
+1	2	16	50	5		u,Улучш.\0
+1	2	16	50	6		u,Улучш.\0
+1	2	16	50	7		u,Улучш.\0
+1	2	16	50	8		u,Улучш.\0
+1	2	16	50	9		u,Улучш.\0
+1	2	16	50	10		u,Улучш.\0
+1	3	0	15	0		u,Улучш.\0
+1	3	0	15	1		u,Улучш.\0
+1	3	0	15	2		u,Улучш.\0
+1	3	0	15	3		u,Улучш.\0
+1	3	0	15	4		u,Улучш.\0
+1	3	0	15	5		u,Улучш.\0
+1	3	0	15	6		u,Улучш.\0
+1	3	0	15	7		u,Улучш.\0
+1	3	0	15	8		u,Улучш.\0
+1	3	0	15	9		u,Улучш.\0
+1	3	0	15	10		u,Улучш.\0
+1	3	16	50	0		u,Улучш.\0
+1	3	16	50	1		u,Улучш.\0
+1	3	16	50	2		u,Улучш.\0
+1	3	16	50	3		u,Улучш.\0
+1	3	16	50	4		u,Улучш.\0
+1	3	16	50	5		u,Улучш.\0
+1	3	16	50	6		u,Улучш.\0
+1	3	16	50	7		u,Улучш.\0
+1	3	16	50	8		u,Улучш.\0
+1	3	16	50	9		u,Улучш.\0
+1	3	16	50	10		u,Улучш.\0
+1	4	0	15	0		u,Улучш.\0
+1	4	0	15	1		u,Улучш.\0
+1	4	0	15	2		u,Улучш.\0
+1	4	0	15	3		u,Улучш.\0
+1	4	0	15	4		u,Улучш.\0
+1	4	0	15	5		u,Улучш.\0
+1	4	0	15	6		u,Улучш.\0
+1	4	0	15	7		u,Улучш.\0
+1	4	0	15	8		u,Улучш.\0
+1	4	0	15	9		u,Улучш.\0
+1	4	0	15	10		u,Улучш.\0
+1	4	16	50	0		u,Улучш.\0
+1	4	16	50	1		u,Улучш.\0
+1	4	16	50	2		u,Улучш.\0
+1	4	16	50	3		u,Улучш.\0
+1	4	16	50	4		u,Улучш.\0
+1	4	16	50	5		u,Улучш.\0
+1	4	16	50	6		u,Улучш.\0
+1	4	16	50	7		u,Улучш.\0
+1	4	16	50	8		u,Улучш.\0
+1	4	16	50	9		u,Улучш.\0
+1	4	16	50	10		u,Улучш.\0
+2	1	0	15	0		u,Улучш.\0
+2	1	0	15	1		u,Улучш.\0
+2	1	0	15	2		u,Улучш.\0
+2	1	0	15	3		u,Улучш.\0
+2	1	0	15	4		u,Улучш.\0
+2	1	0	15	5		u,Улучш.\0
+2	1	0	15	6		u,Улучш.\0
+2	1	0	15	7		u,Улучш.\0
+2	1	0	15	8		u,Улучш.\0
+2	1	0	15	9		u,Улучш.\0
+2	1	0	15	10		u,Улучш.\0
+2	1	16	50	0		u,Улучш.\0
+2	1	16	50	1		u,Улучш.\0
+2	1	16	50	2		u,Улучш.\0
+2	1	16	50	3		u,Улучш.\0
+2	1	16	50	4		u,Улучш.\0
+2	1	16	50	5		u,Улучш.\0
+2	1	16	50	6		u,Улучш.\0
+2	1	16	50	7		u,Улучш.\0
+2	1	16	50	8		u,Улучш.\0
+2	1	16	50	9		u,Улучш.\0
+2	1	16	50	10		u,Улучш.\0
+2	2	0	15	0		u,Улучш.\0
+2	2	0	15	1		u,Улучш.\0
+2	2	0	15	2		u,Улучш.\0
+2	2	0	15	3		u,Улучш.\0
+2	2	0	15	4		u,Улучш.\0
+2	2	0	15	5		u,Улучш.\0
+2	2	0	15	6		u,Улучш.\0
+2	2	0	15	7		u,Улучш.\0
+2	2	0	15	8		u,Улучш.\0
+2	2	0	15	9		u,Улучш.\0
+2	2	0	15	10		u,Улучш.\0
+2	2	16	50	0		u,Улучш.\0
+2	2	16	50	1		u,Улучш.\0
+2	2	16	50	2		u,Улучш.\0
+2	2	16	50	3		u,Улучш.\0
+2	2	16	50	4		u,Улучш.\0
+2	2	16	50	5		u,Улучш.\0
+2	2	16	50	6		u,Улучш.\0
+2	2	16	50	7		u,Улучш.\0
+2	2	16	50	8		u,Улучш.\0
+2	2	16	50	9		u,Улучш.\0
+2	2	16	50	10		u,Улучш.\0
+2	3	0	15	0	LineageEffect.w_vari_b1_000_a	u,Улучш.\0
+2	3	0	15	1	LineageEffect.w_vari_b1_001_a	u,Улучш.\0
+2	3	0	15	2	LineageEffect.w_vari_b1_002_a	u,Улучш.\0
+2	3	0	15	3	LineageEffect.w_vari_b1_003_a	u,Улучш.\0
+2	3	0	15	4	LineageEffect.w_vari_b1_004_a	u,Улучш.\0
+2	3	0	15	5	LineageEffect.w_vari_b1_005_a	u,Улучш.\0
+2	3	0	15	6	LineageEffect.w_vari_b1_006_a	u,Улучш.\0
+2	3	0	15	7	LineageEffect.w_vari_b1_007_a	u,Улучш.\0
+2	3	0	15	8	LineageEffect.w_vari_b1_008_a	u,Улучш.\0
+2	3	0	15	9	LineageEffect.w_vari_009_1b	u,Улучш.\0
+2	3	0	15	10	LineageEffect.w_vari_010_1b	u,Улучш.\0
+2	3	16	50	0	LineageEffect.w_vari_r1_000_a	u,Улучш.\0
+2	3	16	50	1	LineageEffect.w_vari_r1_001_a	u,Улучш.\0
+2	3	16	50	2	LineageEffect.w_vari_r1_002_a	u,Улучш.\0
+2	3	16	50	3	LineageEffect.w_vari_r1_003_a	u,Улучш.\0
+2	3	16	50	4	LineageEffect.w_vari_r1_004_a	u,Улучш.\0
+2	3	16	50	5	LineageEffect.w_vari_r1_005_a	u,Улучш.\0
+2	3	16	50	6	LineageEffect.w_vari_r1_006_a	u,Улучш.\0
+2	3	16	50	7	LineageEffect.w_vari_r1_007_a	u,Улучш.\0
+2	3	16	50	8	LineageEffect.w_vari_r1_008_a	u,Улучш.\0
+2	3	16	50	9	LineageEffect.w_vari_009_1r	u,Улучш.\0
+2	3	16	50	10	LineageEffect.w_vari_010_1r	u,Улучш.\0
+2	4	0	15	0	LineageEffect.w_vari_b2_000_a	u,Улучш.\0
+2	4	0	15	1	LineageEffect.w_vari_b2_001_a	u,Улучш.\0
+2	4	0	15	2	LineageEffect.w_vari_b2_002_a	u,Улучш.\0
+2	4	0	15	3	LineageEffect.w_vari_b2_003_a	u,Улучш.\0
+2	4	0	15	4	LineageEffect.w_vari_b2_004_a	u,Улучш.\0
+2	4	0	15	5	LineageEffect.w_vari_b2_005_a	u,Улучш.\0
+2	4	0	15	6	LineageEffect.w_vari_b2_006_a	u,Улучш.\0
+2	4	0	15	7	LineageEffect.w_vari_b2_007_a	u,Улучш.\0
+2	4	0	15	8	LineageEffect.w_vari_b2_008_a	u,Улучш.\0
+2	4	0	15	9	LineageEffect.w_vari_009_2b	u,Улучш.\0
+2	4	0	15	10	LineageEffect.w_vari_010_2b	u,Улучш.\0
+2	4	16	50	0	LineageEffect.w_vari_r2_000_a	u,Улучш.\0
+2	4	16	50	1	LineageEffect.w_vari_r2_001_a	u,Улучш.\0
+2	4	16	50	2	LineageEffect.w_vari_r2_002_a	u,Улучш.\0
+2	4	16	50	3	LineageEffect.w_vari_r2_003_a	u,Улучш.\0
+2	4	16	50	4	LineageEffect.w_vari_r2_004_a	u,Улучш.\0
+2	4	16	50	5	LineageEffect.w_vari_r2_005_a	u,Улучш.\0
+2	4	16	50	6	LineageEffect.w_vari_r2_006_a	u,Улучш.\0
+2	4	16	50	7	LineageEffect.w_vari_r2_007_a	u,Улучш.\0
+2	4	16	50	8	LineageEffect.w_vari_r2_008_a	u,Улучш.\0
+2	4	16	50	9	LineageEffect.w_vari_009_2r	u,Улучш.\0
+2	4	16	50	10	LineageEffect.w_vari_010_2r	u,Улучш.\0
+3	1	0	15	0	LineageEffect.w_vari_b3_000_a	u,Улучш.\0
+3	1	0	15	1	LineageEffect.w_vari_b3_001_a	u,Улучш.\0
+3	1	0	15	2	LineageEffect.w_vari_b3_002_a	u,Улучш.\0
+3	1	0	15	3	LineageEffect.w_vari_b3_003_a	u,Улучш.\0
+3	1	0	15	4	LineageEffect.w_vari_b3_004_a	u,Улучш.\0
+3	1	0	15	5	LineageEffect.w_vari_b3_005_a	u,Улучш.\0
+3	1	0	15	6	LineageEffect.w_vari_b3_006_a	u,Улучш.\0
+3	1	0	15	7	LineageEffect.w_vari_b3_007_a	u,Улучш.\0
+3	1	0	15	8	LineageEffect.w_vari_b3_008_a	u,Улучш.\0
+3	1	0	15	9	LineageEffect.w_vari_009_3b	u,Улучш.\0
+3	1	0	15	10	LineageEffect.w_vari_010_3b	u,Улучш.\0
+3	1	16	50	0	LineageEffect.w_vari_r3_000_a	u,Улучш.\0
+3	1	16	50	1	LineageEffect.w_vari_r3_001_a	u,Улучш.\0
+3	1	16	50	2	LineageEffect.w_vari_r3_002_a	u,Улучш.\0
+3	1	16	50	3	LineageEffect.w_vari_r3_003_a	u,Улучш.\0
+3	1	16	50	4	LineageEffect.w_vari_r3_004_a	u,Улучш.\0
+3	1	16	50	5	LineageEffect.w_vari_r3_005_a	u,Улучш.\0
+3	1	16	50	6	LineageEffect.w_vari_r3_006_a	u,Улучш.\0
+3	1	16	50	7	LineageEffect.w_vari_r3_007_a	u,Улучш.\0
+3	1	16	50	8	LineageEffect.w_vari_r3_008_a	u,Улучш.\0
+3	1	16	50	9	LineageEffect.w_vari_009_3r	u,Улучш.\0
+3	1	16	50	10	LineageEffect.w_vari_010_3r	u,Улучш.\0
+3	2	0	15	0	LineageEffect.w_vari_b3_000_a	u,Улучш.\0
+3	2	0	15	1	LineageEffect.w_vari_b3_001_a	u,Улучш.\0
+3	2	0	15	2	LineageEffect.w_vari_b3_002_a	u,Улучш.\0
+3	2	0	15	3	LineageEffect.w_vari_b3_003_a	u,Улучш.\0
+3	2	0	15	4	LineageEffect.w_vari_b3_004_a	u,Улучш.\0
+3	2	0	15	5	LineageEffect.w_vari_b3_005_a	u,Улучш.\0
+3	2	0	15	6	LineageEffect.w_vari_b3_006_a	u,Улучш.\0
+3	2	0	15	7	LineageEffect.w_vari_b3_007_a	u,Улучш.\0
+3	2	0	15	8	LineageEffect.w_vari_b3_008_a	u,Улучш.\0
+3	2	0	15	9	LineageEffect.w_vari_009_3b	u,Улучш.\0
+3	2	0	15	10	LineageEffect.w_vari_010_3b	u,Улучш.\0
+3	2	16	50	0	LineageEffect.w_vari_r3_000_a	u,Улучш.\0
+3	2	16	50	1	LineageEffect.w_vari_r3_001_a	u,Улучш.\0
+3	2	16	50	2	LineageEffect.w_vari_r3_002_a	u,Улучш.\0
+3	2	16	50	3	LineageEffect.w_vari_r3_003_a	u,Улучш.\0
+3	2	16	50	4	LineageEffect.w_vari_r3_004_a	u,Улучш.\0
+3	2	16	50	5	LineageEffect.w_vari_r3_005_a	u,Улучш.\0
+3	2	16	50	6	LineageEffect.w_vari_r3_006_a	u,Улучш.\0
+3	2	16	50	7	LineageEffect.w_vari_r3_007_a	u,Улучш.\0
+3	2	16	50	8	LineageEffect.w_vari_r3_008_a	u,Улучш.\0
+3	2	16	50	9	LineageEffect.w_vari_009_3r	u,Улучш.\0
+3	2	16	50	10	LineageEffect.w_vari_010_3r	u,Улучш.\0
+3	3	0	15	0	LineageEffect.w_vari_b3_000_a	u,Улучш.\0
+3	3	0	15	1	LineageEffect.w_vari_b3_001_a	u,Улучш.\0
+3	3	0	15	2	LineageEffect.w_vari_b3_002_a	u,Улучш.\0
+3	3	0	15	3	LineageEffect.w_vari_b3_003_a	u,Улучш.\0
+3	3	0	15	4	LineageEffect.w_vari_b3_004_a	u,Улучш.\0
+3	3	0	15	5	LineageEffect.w_vari_b3_005_a	u,Улучш.\0
+3	3	0	15	6	LineageEffect.w_vari_b3_006_a	u,Улучш.\0
+3	3	0	15	7	LineageEffect.w_vari_b3_007_a	u,Улучш.\0
+3	3	0	15	8	LineageEffect.w_vari_b3_008_a	u,Улучш.\0
+3	3	0	15	9	LineageEffect.w_vari_009_3b	u,Улучш.\0
+3	3	0	15	10	LineageEffect.w_vari_010_3b	u,Улучш.\0
+3	3	16	50	0	LineageEffect.w_vari_r3_000_a	u,Улучш.\0
+3	3	16	50	1	LineageEffect.w_vari_r3_001_a	u,Улучш.\0
+3	3	16	50	2	LineageEffect.w_vari_r3_002_a	u,Улучш.\0
+3	3	16	50	3	LineageEffect.w_vari_r3_003_a	u,Улучш.\0
+3	3	16	50	4	LineageEffect.w_vari_r3_004_a	u,Улучш.\0
+3	3	16	50	5	LineageEffect.w_vari_r3_005_a	u,Улучш.\0
+3	3	16	50	6	LineageEffect.w_vari_r3_006_a	u,Улучш.\0
+3	3	16	50	7	LineageEffect.w_vari_r3_007_a	u,Улучш.\0
+3	3	16	50	8	LineageEffect.w_vari_r3_008_a	u,Улучш.\0
+3	3	16	50	9	LineageEffect.w_vari_009_3r	u,Улучш.\0
+3	3	16	50	10	LineageEffect.w_vari_010_3r	u,Улучш.\0
+3	4	0	15	0	LineageEffect.w_vari_b3_000_a	u,Улучш.\0
+3	4	0	15	1	LineageEffect.w_vari_b3_001_a	u,Улучш.\0
+3	4	0	15	2	LineageEffect.w_vari_b3_002_a	u,Улучш.\0
+3	4	0	15	3	LineageEffect.w_vari_b3_003_a	u,Улучш.\0
+3	4	0	15	4	LineageEffect.w_vari_b3_004_a	u,Улучш.\0
+3	4	0	15	5	LineageEffect.w_vari_b3_005_a	u,Улучш.\0
+3	4	0	15	6	LineageEffect.w_vari_b3_006_a	u,Улучш.\0
+3	4	0	15	7	LineageEffect.w_vari_b3_007_a	u,Улучш.\0
+3	4	0	15	8	LineageEffect.w_vari_b3_008_a	u,Улучш.\0
+3	4	0	15	9	LineageEffect.w_vari_009_3b	u,Улучш.\0
+3	4	0	15	10	LineageEffect.w_vari_010_3b	u,Улучш.\0
+3	4	16	50	0	LineageEffect.w_vari_r3_000_a	u,Улучш.\0
+3	4	16	50	1	LineageEffect.w_vari_r3_001_a	u,Улучш.\0
+3	4	16	50	2	LineageEffect.w_vari_r3_002_a	u,Улучш.\0
+3	4	16	50	3	LineageEffect.w_vari_r3_003_a	u,Улучш.\0
+3	4	16	50	4	LineageEffect.w_vari_r3_004_a	u,Улучш.\0
+3	4	16	50	5	LineageEffect.w_vari_r3_005_a	u,Улучш.\0
+3	4	16	50	6	LineageEffect.w_vari_r3_006_a	u,Улучш.\0
+3	4	16	50	7	LineageEffect.w_vari_r3_007_a	u,Улучш.\0
+3	4	16	50	8	LineageEffect.w_vari_r3_008_a	u,Улучш.\0
+3	4	16	50	9	LineageEffect.w_vari_009_3r	u,Улучш.\0
+3	4	16	50	10	LineageEffect.w_vari_010_3r	u,Улучш.\0
+4	1	0	15	0	LineageEffect.w_vari_b4_000_a	u,Улучш.\0
+4	1	0	15	1	LineageEffect.w_vari_b4_001_a	u,Улучш.\0
+4	1	0	15	2	LineageEffect.w_vari_b4_002_a	u,Улучш.\0
+4	1	0	15	3	LineageEffect.w_vari_b4_003_a	u,Улучш.\0
+4	1	0	15	4	LineageEffect.w_vari_b4_004_a	u,Улучш.\0
+4	1	0	15	5	LineageEffect.w_vari_b4_005_a	u,Улучш.\0
+4	1	0	15	6	LineageEffect.w_vari_b4_006_a	u,Улучш.\0
+4	1	0	15	7	LineageEffect.w_vari_b4_007_a	u,Улучш.\0
+4	1	0	15	8	LineageEffect.w_vari_b4_008_a	u,Улучш.\0
+4	1	0	15	9	LineageEffect.w_vari_009_4b	u,Улучш.\0
+4	1	0	15	10	LineageEffect.w_vari_010_4b	u,Улучш.\0
+4	1	16	50	0	LineageEffect.w_vari_r4_000_a	u,Улучш.\0
+4	1	16	50	1	LineageEffect.w_vari_r4_001_a	u,Улучш.\0
+4	1	16	50	2	LineageEffect.w_vari_r4_002_a	u,Улучш.\0
+4	1	16	50	3	LineageEffect.w_vari_r4_003_a	u,Улучш.\0
+4	1	16	50	4	LineageEffect.w_vari_r4_004_a	u,Улучш.\0
+4	1	16	50	5	LineageEffect.w_vari_r4_005_a	u,Улучш.\0
+4	1	16	50	6	LineageEffect.w_vari_r4_006_a	u,Улучш.\0
+4	1	16	50	7	LineageEffect.w_vari_r4_007_a	u,Улучш.\0
+4	1	16	50	8	LineageEffect.w_vari_r4_008_a	u,Улучш.\0
+4	1	16	50	9	LineageEffect.w_vari_009_4r	u,Улучш.\0
+4	1	16	50	10	LineageEffect.w_vari_010_4r	u,Улучш.\0
+4	2	0	15	0	LineageEffect.w_vari_b4_000_a	u,Улучш.\0
+4	2	0	15	1	LineageEffect.w_vari_b4_001_a	u,Улучш.\0
+4	2	0	15	2	LineageEffect.w_vari_b4_002_a	u,Улучш.\0
+4	2	0	15	3	LineageEffect.w_vari_b4_003_a	u,Улучш.\0
+4	2	0	15	4	LineageEffect.w_vari_b4_004_a	u,Улучш.\0
+4	2	0	15	5	LineageEffect.w_vari_b4_005_a	u,Улучш.\0
+4	2	0	15	6	LineageEffect.w_vari_b4_006_a	u,Улучш.\0
+4	2	0	15	7	LineageEffect.w_vari_b4_007_a	u,Улучш.\0
+4	2	0	15	8	LineageEffect.w_vari_b4_008_a	u,Улучш.\0
+4	2	0	15	9	LineageEffect.w_vari_009_4b	u,Улучш.\0
+4	2	0	15	10	LineageEffect.w_vari_010_4b	u,Улучш.\0
+4	2	16	50	0	LineageEffect.w_vari_r4_000_a	u,Улучш.\0
+4	2	16	50	1	LineageEffect.w_vari_r4_001_a	u,Улучш.\0
+4	2	16	50	2	LineageEffect.w_vari_r4_002_a	u,Улучш.\0
+4	2	16	50	3	LineageEffect.w_vari_r4_003_a	u,Улучш.\0
+4	2	16	50	4	LineageEffect.w_vari_r4_004_a	u,Улучш.\0
+4	2	16	50	5	LineageEffect.w_vari_r4_005_a	u,Улучш.\0
+4	2	16	50	6	LineageEffect.w_vari_r4_006_a	u,Улучш.\0
+4	2	16	50	7	LineageEffect.w_vari_r4_007_a	u,Улучш.\0
+4	2	16	50	8	LineageEffect.w_vari_r4_008_a	u,Улучш.\0
+4	2	16	50	9	LineageEffect.w_vari_009_4r	u,Улучш.\0
+4	2	16	50	10	LineageEffect.w_vari_010_4r	u,Улучш.\0
+4	3	0	15	0	LineageEffect.w_vari_b4_000_a	u,Улучш.\0
+4	3	0	15	1	LineageEffect.w_vari_b4_001_a	u,Улучш.\0
+4	3	0	15	2	LineageEffect.w_vari_b4_002_a	u,Улучш.\0
+4	3	0	15	3	LineageEffect.w_vari_b4_003_a	u,Улучш.\0
+4	3	0	15	4	LineageEffect.w_vari_b4_004_a	u,Улучш.\0
+4	3	0	15	5	LineageEffect.w_vari_b4_005_a	u,Улучш.\0
+4	3	0	15	6	LineageEffect.w_vari_b4_006_a	u,Улучш.\0
+4	3	0	15	7	LineageEffect.w_vari_b4_007_a	u,Улучш.\0
+4	3	0	15	8	LineageEffect.w_vari_b4_008_a	u,Улучш.\0
+4	3	0	15	9	LineageEffect.w_vari_009_4b	u,Улучш.\0
+4	3	0	15	10	LineageEffect.w_vari_010_4b	u,Улучш.\0
+4	3	16	50	0	LineageEffect.w_vari_r4_000_a	u,Улучш.\0
+4	3	16	50	1	LineageEffect.w_vari_r4_001_a	u,Улучш.\0
+4	3	16	50	2	LineageEffect.w_vari_r4_002_a	u,Улучш.\0
+4	3	16	50	3	LineageEffect.w_vari_r4_003_a	u,Улучш.\0
+4	3	16	50	4	LineageEffect.w_vari_r4_004_a	u,Улучш.\0
+4	3	16	50	5	LineageEffect.w_vari_r4_005_a	u,Улучш.\0
+4	3	16	50	6	LineageEffect.w_vari_r4_006_a	u,Улучш.\0
+4	3	16	50	7	LineageEffect.w_vari_r4_007_a	u,Улучш.\0
+4	3	16	50	8	LineageEffect.w_vari_r4_008_a	u,Улучш.\0
+4	3	16	50	9	LineageEffect.w_vari_009_4r	u,Улучш.\0
+4	3	16	50	10	LineageEffect.w_vari_010_4r	u,Улучш.\0
+4	4	0	15	0	LineageEffect.w_vari_b4_000_a	u,Улучш.\0
+4	4	0	15	1	LineageEffect.w_vari_b4_001_a	u,Улучш.\0
+4	4	0	15	2	LineageEffect.w_vari_b4_002_a	u,Улучш.\0
+4	4	0	15	3	LineageEffect.w_vari_b4_003_a	u,Улучш.\0
+4	4	0	15	4	LineageEffect.w_vari_b4_004_a	u,Улучш.\0
+4	4	0	15	5	LineageEffect.w_vari_b4_005_a	u,Улучш.\0
+4	4	0	15	6	LineageEffect.w_vari_b4_006_a	u,Улучш.\0
+4	4	0	15	7	LineageEffect.w_vari_b4_007_a	u,Улучш.\0
+4	4	0	15	8	LineageEffect.w_vari_b4_008_a	u,Улучш.\0
+4	4	0	15	9	LineageEffect.w_vari_009_4b	u,Улучш.\0
+4	4	0	15	10	LineageEffect.w_vari_010_4b	u,Улучш.\0
+4	4	16	50	0	LineageEffect.w_vari_r4_000_a	u,Улучш.\0
+4	4	16	50	1	LineageEffect.w_vari_r4_001_a	u,Улучш.\0
+4	4	16	50	2	LineageEffect.w_vari_r4_002_a	u,Улучш.\0
+4	4	16	50	3	LineageEffect.w_vari_r4_003_a	u,Улучш.\0
+4	4	16	50	4	LineageEffect.w_vari_r4_004_a	u,Улучш.\0
+4	4	16	50	5	LineageEffect.w_vari_r4_005_a	u,Улучш.\0
+4	4	16	50	6	LineageEffect.w_vari_r4_006_a	u,Улучш.\0
+4	4	16	50	7	LineageEffect.w_vari_r4_007_a	u,Улучш.\0
+4	4	16	50	8	LineageEffect.w_vari_r4_008_a	u,Улучш.\0
+4	4	16	50	9	LineageEffect.w_vari_009_4r	u,Улучш.\0
+4	4	16	50	10	LineageEffect.w_vari_010_4r	u,Улучш.\0

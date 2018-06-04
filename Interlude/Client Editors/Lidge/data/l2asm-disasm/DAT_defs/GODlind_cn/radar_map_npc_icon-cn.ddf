@@ -1,0 +1,16 @@
+// Created by Syncia for China client 2014-05-21
+
+FS = "\t"; 
+HEADER = 1; 
+RECCNT = OFF; 
+MTXCNT_OUT = 1; 
+MATCNT_OUT = 1; 
+ORD_IGNORE = 0; 
+
+{ 
+   UINT id; 
+   UINT tag; 
+   FLOAT location_x; 
+   FLOAT location_y; 
+   FLOAT location_z;
+}

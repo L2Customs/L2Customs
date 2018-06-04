@@ -1,0 +1,18 @@
+//early version submitted by Allen (L2Sexi Server)
+FS = "\t"; 
+HEADER = 1; 
+RECCNT = -1; 
+MTXCNT_OUT = 1; 
+MATCNT_OUT = 1; 
+ORD_IGNORE = 0; 
+{ 
+   UINT Item_Group_0;
+   INT popup;
+   UINT colorExName_id;
+   UINT Unknown_Item[2];
+   UINT UNK_0;
+   UINT Item_Group_1;
+   UINT UNK_1;
+   UINT UNK_2;
+   CHEX Color_Name_RGB[4];
+}

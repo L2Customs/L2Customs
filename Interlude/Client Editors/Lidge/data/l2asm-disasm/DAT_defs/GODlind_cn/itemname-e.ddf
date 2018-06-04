@@ -1,0 +1,21 @@
+//early version submitted by Allen (L2Sexi Server)
+//Fixed by Syncia for China client 2014-05-19
+FS = "\t"; 
+HEADER = 1; 
+RECCNT = OFF; 
+MTXCNT_OUT = 1; 
+MATCNT_OUT = 1; 
+ORD_IGNORE = 0; 
+{ 
+    UINT id;
+    UNICODE name; 
+    UNICODE add_name; 
+    ASCF description; 
+    INT popup;
+    INT unk0;
+    UINT unk1[11];
+    ASCF action;
+    UINT unk3[2];
+    INT unk4[2];
+    UINT unk5;
+}

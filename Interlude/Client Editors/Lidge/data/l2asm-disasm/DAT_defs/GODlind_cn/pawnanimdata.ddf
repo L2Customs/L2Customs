@@ -1,0 +1,18 @@
+//early version submitted by Allen (L2Sexi Server)
+//Fixed by Syncia for China client 2014-05-20
+FS = "\t";
+RECCNT = -1;
+HEADER = YES;
+MTXCNT_OUT = YES;
+MATCNT_OUT = YES;
+ORD_IGNORE = NO;
+
+{
+	UNICODE character;
+	UNICODE anim_lista[600];
+	UNICODE anim_listb[600];
+	UNICODE anim_listc[600];
+	UNICODE anim_listd[426];
+	FLOAT UNK1[345];
+	UINT UNK2[27];
+}

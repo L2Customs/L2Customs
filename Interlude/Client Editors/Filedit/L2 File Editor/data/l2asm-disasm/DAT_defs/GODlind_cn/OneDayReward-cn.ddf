@@ -1,0 +1,32 @@
+//Created by Syncia for China Client 2014-05-20
+
+FS = "\t";
+RECCNT = OFF;
+HEADER = YES;
+MTXCNT_OUT = YES;
+MATCNT_OUT = YES;
+MAGIC = 0;
+ORD_IGNORE = NO;
+
+{
+	UINT id;
+	UINT unk;
+    ASCF descr;
+	UINT unk_2;  
+    ASCF descr2;
+    ASCF descr3;
+    CNTR class_id_cntr;
+    INT classid[class_id_cntr];
+    UINT UNK_0[2];
+        ENBBY = [(unk_2:-1,1)];
+        ENBBY = [(unk_2:-2,2)];
+        ENBBY = [(unk_2:-4,4)];
+    UINT UNK_1[2]; 
+        ENBBY = [(unk_2:-2,2)];
+        ENBBY = [(unk_2:-4,4)];
+    UINT UNK_2[2]; 
+        ENBBY = [(unk_2:-1,3)];
+        ENBBY = [(unk_2:-4,4)];
+    UINT UNK_3[2];    
+        ENBBY = [(unk_2:-4,4)];
+}

@@ -1,0 +1,36 @@
+Menu file:
+	Load		->	Carica un file salvato (formato .dec).
+	Save		->	Salva un file (formato .dec).
+	Import		-> 	Importa un file .dat (patchato con l2encdec).
+	Import original	->	Importa un file .dat originale.
+	Export		->	Esporta in formato .dat (il client deve essere patchato con l2encdec per funzionare).
+	Exit		->	Esce dal programma.
+
+Menu edit:
+	New		->	Aggiunge una nuova riga alla fine.
+	Edit		->	Apre la finestra per la modifica dell' id corrente (si può anche fare semplicemente un doppio click sulla riga).
+	Delete		->	Cancella la riga o le righe selezionate.
+	Ask for delete	->	Se selezionato chiede conferma quando si vuole cancellare una o più righe.
+
+Menu Help:
+	Help		->	Guida.
+	About		->	Info sul programma (licenza, garanzia, limitazione delle responsabilità, link).
+	Register file extension	->	Aggiunge l'estensione .dec nel registro di sistema in modo che sia possibile aprire il file con un
+					doppio click.
+
+Search id:
+	Nel riquadro a sinistra del bottone va inserito l' id che si vuole cercare. Per iniziare la ricerca, premere invio sulla tastiera o cliccare sul
+	bottone "Search id"
+
+Search name:
+	Nel riquadro a destra del bottone "Search id" va inserito il nome (o parte di esso) che si vuole cercare. Per iniziare la ricerca, premere 
+	invio sulla tastiera o cliccare sul bottone "From beginning", per cercare il prossimo dalla posizione corrente, cliccare su "Next ->" o 
+	premere "CTRL" + "S", per cercare il precedente dalla posizione corrente, cliccare su "Previous <-" o premere "CTRL" + "D"
+
+---------------------------------------------------------------------------------------------------------------------
+
+IL PROGRAMMA E` FORNITO "COSI` COM'E`", SENZA ALCUNA GARANZIA DI ALCUN TIPO.
+Non sono responsabile per qualsiasi possibile perdita di dati o danno causato, in modo diretto (harware, software, ecc...)
+o indiretto (tempo, soldi, ecc...), dall' uso di questo programma.
+
+---------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,32 @@
+{
+	"name": "Default Data Package",
+	"version": "1.0",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Yury Smidovich",
+			"email": "dev@stmol.me",
+			"homepage": "stmol.me"
+		}
+	],
+	"info": {
+		"source": "Official game client dat files",
+		"language": "en",
+		"patch": "High Five"
+	},
+	"icons":"icons/",
+	"items": [
+		{
+			"name": "Weapon",
+			"path": "data/weapon.json"
+		},
+		{
+			"name": "Armor",
+			"path": "data/armor.json"
+		},
+		{
+			"name": "Etc item",
+			"path": "data/etcitem.json"
+		}
+	]
+}

@@ -1,0 +1,145 @@
+//early version submitted by Allen (L2Sexi Server)
+//Fixed by Syncia for China Client 2014-05-18
+
+FS = "\t";
+HEADER = 1;
+RECCNT = 17;
+MTXCNT_OUT = 1;
+MATCNT_OUT = 1;
+ORD_IGNORE = 0;
+MAGIC = 0;
+
+{
+	UNICODE hair_tab[300];
+
+    UNICODE face_mesh;
+    UNICODE face_tex;
+    UNICODE upper_mesh;
+    UNICODE upper_tex;
+    UNICODE face_mesh1;
+    UNICODE face_tex1;
+    UNICODE upper_mesh1;
+    UNICODE upper_tex1;
+    UNICODE face_mesh2;
+    UNICODE face_tex2;
+    UINT UNK[50];
+
+	UINT cnt_fm3;
+	UNICODE face_mesh3[cnt_fm3];
+	UINT cnt_ft3;
+	UNICODE face_tex3[cnt_ft3];
+	
+	FILLER void_1{486};
+	
+	UINT cnt_gm;
+	UNICODE glove_mesh[cnt_gm];
+	UINT cnt_gt;
+	UNICODE glove_tex[cnt_gt];
+	UINT cnt_gma;
+	UNICODE glove_mesh_add[cnt_gma];
+	UINT cnt_gta;
+	UNICODE glove_tex_add[cnt_gta];
+	CNTR cnt_gtb;
+	UCHAR glove_tab_byte[cnt_gtb];
+	CNTR cnt_gtd;
+	UCHAR glove_tab_byte[cnt_gtd];
+	UINT cnt_gmb;
+	UNICODE glove_mesha[cnt_gmb];
+	UINT cnt_gte;
+	UNICODE glove_texa[cnt_gte];
+	UINT cnt_gmc;
+	UNICODE glove_mesha_add[cnt_gmc];
+	UINT cnt_gtf;
+	UNICODE glove_texa_add[cnt_gtf];
+	
+	CNTR cnt_um;
+	UCHAR upper_mesh[cnt_um];
+	CNTR cnt_ut;
+	UCHAR upper_tex[cnt_ut];
+	UINT cnt_uma;
+	UNICODE upper_mesh_add[cnt_uma];
+	UINT cnt_uta;
+	UNICODE upper_tex_add[cnt_uta];
+	CNTR cnt_utb;
+	UCHAR upper_tab_byte[cnt_utb];
+	CNTR cnt_utd;
+	UCHAR upper_tab_byte[cnt_utd];
+	UINT cnt_umb;
+	UNICODE upper_mesha[cnt_umb];
+	UINT cnt_ute;
+	UNICODE upper_texa[cnt_ute];
+	UINT cnt_umc;
+	UNICODE upper_mesha_add[cnt_umc];
+	UINT cnt_utf;
+	UNICODE upper_texa_add[cnt_utf];
+	
+	UINT cnt_lm;
+	UNICODE lower_mesh[cnt_lm];
+	UINT cnt_lt;
+	UNICODE lower_tex[cnt_lt];
+	UINT cnt_lma;
+	UNICODE lower_mesh_add[cnt_lma];
+	UINT cnt_lta;
+	UNICODE lower_tex_add[cnt_lta];
+	CNTR cnt_ltb;
+	UCHAR lower_tab_byte[cnt_ltb];
+	CNTR cnt_ltd;
+	UCHAR lower_tab_byte[cnt_ltd];
+	UINT cnt_lmb;
+	UNICODE lower_mesha[cnt_lmb];
+	UINT cnt_lte;
+	UNICODE lower_texa[cnt_lte];
+	UINT cnt_lmc;
+	UNICODE lower_mesha_add[cnt_lmc];
+	UINT cnt_ltf;
+	UNICODE lower_texa_add[cnt_ltf];
+
+	FILLER void_2{66};
+	
+	UNICODE attack_eff;
+	UINT walkanimframe?;
+    UINT cnt_att;
+    UINT cnt_def;
+    UINT cnt_dmg;
+	UNICODE snd_att[cnt_att];
+	UNICODE snd_def[cnt_def];
+	UNICODE snd_dmg[cnt_dmg];
+	
+	UINT cntha;
+	UNICODE voice_snd_hand[cntha];
+	UINT cnt1h;
+	UNICODE voice_snd_1hs[cnt1h];
+	UINT cnt2h;
+	UNICODE voice_snd_2hs[cnt2h];
+	UINT cntd;
+	UNICODE voice_snd_dual[cntd];
+	UINT cntp;
+	UNICODE voice_snd_pole[cntp];
+	
+	UINT cntr1;
+	UNICODE voice_snd_reserve1[cntr1];
+	UINT cntr2;
+	UNICODE voice_snd_reserve2[cntr2];
+	UINT cntr3;
+	UNICODE voice_snd_reserve3[cntr3];
+	UINT cntr4;
+	UNICODE voice_snd_reserve4[cntr4];
+	UINT cntr5;
+	UNICODE voice_snd_reserve5[cntr5];
+	UINT cntr6;
+	UNICODE voice_snd_reserve6[cntr6];
+	UINT cntr7;
+	UNICODE voice_snd_reserve7[cntr7];
+	UINT cntr8;
+	UNICODE voice_snd_reserve8[cntr8];
+	UINT cntr9;
+	UNICODE voice_snd_reserve9[cntr9];
+	
+	UINT final;
+	ASCF name;
+	INT UNK[3];
+	UINT cntp1;
+	UNICODE p1[cntp1];
+	UINT cntp2;
+	UNICODE p2[cntp2];
+}

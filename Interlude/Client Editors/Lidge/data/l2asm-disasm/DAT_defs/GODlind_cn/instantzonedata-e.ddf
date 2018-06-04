@@ -1,0 +1,15 @@
+//Fixed by Syncia for China client 2014-05-19
+FS = "\t";
+RECCNT = OFF;
+HEADER = YES;
+MTXCNT_OUT = YES;
+MATCNT_OUT = YES;
+ORD_IGNORE = NO;
+
+{
+	UINT id;
+	ASCF name;
+    INT min_lv;
+    INT max_lv;
+    ASCF unk_3;
+}

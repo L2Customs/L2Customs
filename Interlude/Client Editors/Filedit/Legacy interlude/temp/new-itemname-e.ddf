@@ -1,0 +1,21 @@
+FS = "\t";
+RECCNT = OFF;
+HEADER = YES;
+MTXCNT_OUT = YES;
+MATCNT_OUT = YES;
+ORD_IGNORE = NO;
+
+{
+	UINT id;
+	UNICODE name;
+	UNICODE add_name;
+	ASCF description;
+	INT popup;
+	ASCF set_ids;
+	ASCF set_bonus_desc;
+	ASCF set_extra_id;
+	ASCF set_extra_desc;
+	CHEX unk[2];
+	UINT special_enchant_amount;
+	ASCF special_enchant_desc;
+}
